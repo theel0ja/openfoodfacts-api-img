@@ -1,0 +1,30 @@
+{
+  "name": "openfoodfacts-api-img",
+  "version": "0.1.0",
+  "description": "Fetch image URLs from OpenFoodFacts",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/theel0ja/openfoodfacts-api-img.git"
+  },
+  "keywords": [
+    "openfoodfacts"
+  ],
+  "author": "Elias Ojala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theel0ja/openfoodfacts-api-img/issues"
+  },
+  "homepage": "https://github.com/theel0ja/openfoodfacts-api-img#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.3"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  }
+}
